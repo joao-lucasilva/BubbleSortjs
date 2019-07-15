@@ -1,4 +1,4 @@
-var numeros = [33, 103, 3, 726, 200, 984, 198, 764, 9];
+let numeros = [33, 103, 3, 726, 200, 984, 198, 764, 9];
 
 console.log("Antes da ordenação");
 console.log(numeros);
@@ -6,7 +6,7 @@ console.log(numeros);
 function bubbleSort(numeros) {
     let tamanho = numeros.length;
     for (let i = 0; i < tamanho; i++) {
-        for (let j = 0; j < (tamanho - i - 1); j++) {
+        for (let j = 0; j < (tamanho - 1); j++) {
             if (numeros[j] > numeros[j + 1]) {
                 let temporaria = numeros[j];
                 numeros[j] = numeros[j + 1];
