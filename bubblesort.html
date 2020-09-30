@@ -2,26 +2,35 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="bubblesort.js"></script>
-    <title>Bublle Sort em JavaScript</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="bubblesort.js" defer></script>
+	<title>Bubble Sort em JavaScript</title>
 </head>
 
 <body>
 	<h1>Algoritmo de Ordenação Bubble Sort</h1>
-	<p>Algoritmo de ordenação em ciência da computação é um algoritmo que coloca os elementos de uma dada sequência em uma certa ordem.</p>
-	<p>A ideia do  bubble sort (ou ordenação "por bolha") é percorrer um vetor diversas vezes, e a cada passagem fazer flutuar para o topo o maior elemento da sequência. 
-	É chamado de ordenação por bolha pois essa movimentação lembra a forma como as bolhas em um tanque de água procuram seu próprio nível. No melhor caso, o algoritmo executa n operações relevantes, onde n representa o número de elementos do vector</p>
+	<p>Algoritmo de ordenação em ciência da computação é um algoritmo que coloca os elementos de uma dada sequência em
+		uma certa ordem.</p>
+	<p>A ideia do bubble sort (ou ordenação "por bolha") é percorrer um vetor diversas vezes, e a cada passagem fazer
+		flutuar para o topo o maior elemento da sequência.
+		É chamado de ordenação por bolha pois essa movimentação lembra a forma como as bolhas em um tanque de água
+		procuram seu próprio nível. No melhor caso, o algoritmo executa n operações relevantes, onde n representa o
+		número de elementos do vector</p>
 	<p>Esse algoritmo foi desenvolvido como atividade da segunda semana do bootcamp Academia Mastertech</p>
 	<h4>Exemplo:</h4>
-	<p id="ex"></p>
-	
+	<button id="btn1" onclick="exemplo()"> Clique para ver o Exemplo</button>
+	<p id="ex1"></p>
+	<p id="ex2"></p>
+
 	<h4>Teste você mesmo: </h4>
-	<label>Digite uma sequência de números:</label>
-	<input type="number">
-	<button type="submit">Ordenar</button>
+	<label>Digite e adcionar numero a numero:</label>
+	<input type="number" id="input">
+	<button type="submit" onclick="addNumber()">Adcionar</button>
+	<p id="elements"></p>
+	<button onclick="orderElements()">Ordenar</button>
+	<p id="ordenedElements"></p>
 </body>
 
 </html>

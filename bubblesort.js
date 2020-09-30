@@ -1,7 +1,6 @@
 function bubbleSort(numeros) {
-    let tamanho = numeros.length;
-    for (let i = 0; i < tamanho; i++) {
-        for (let j = 0; j < (tamanho - 1); j++) {
+    for (let i = 0; i < numeros.length; i++) {
+        for (let j = 0; j < (numeros.length - 1); j++) {
             if (numeros[j] > numeros[j + 1]) {
                 let temporaria = numeros[j];
                 numeros[j] = numeros[j + 1];
@@ -11,12 +10,28 @@ function bubbleSort(numeros) {
     }
 }
 
-let numeros = [33, 103, 3, 726, 200, 984, 198, 764, 9];
-console.log("Antes da ordenação");
-console.log(numeros);
+function exemplo() {
+    let numeros = [33, 103, 3, 726, 200, 984, 198, 764, 9];
+    document.getElementById('ex1').innerHTML = "Array antes da ordenação: [" + numeros + "]";
+    console.log("Antes da ordenação:");
+    console.log(numeros);
+    bubbleSort(numeros);
+    console.log("Depois da ordenação:");
+    console.log(numeros);
+    document.getElementById('ex2').innerHTML = "Array depois da ordenação: [" + numeros + "]";
+}
 
+function addNumber() {
+    let element = document.querySelector("input").value;
+    numbers.push(element);
+    document.getElementById('elements').innerHTML = 'Array: [' + numbers + ']';
+    element = '';
+    document.querySelector("input").value = "";
+}
 
-
-bubbleSort(numeros);
-console.log("Depois da ordenação");
-console.log(numeros);
+function orderElements() {
+    numbers = numbers.map(Number);
+    bubbleSort(numbers);
+    document.getElementById('ordenedElements').innerHTML = 'Array: [' + numbers + ']';
+}
+let numbers = [];
