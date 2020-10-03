@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: oldlace;
+    font-family: 'Source Sans Pro',
+        sans-serif 80px;
+    display: grid;
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+#description,
+#example,
+#test {
+    justify-self: center;
+}
+
+#example {
+    justify-self: center;
+}
+
+#example button {
+    height: 50px;
+    width: 150px;
+    align-self: center;
+}

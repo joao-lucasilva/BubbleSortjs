@@ -6,31 +6,49 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<script src="bubblesort.js" defer></script>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 	<title>Bubble Sort em JavaScript</title>
 </head>
 
-<body>
-	<h1>Algoritmo de Ordenação Bubble Sort</h1>
-	<p>Algoritmo de ordenação em ciência da computação é um algoritmo que coloca os elementos de uma dada sequência em
-		uma certa ordem.</p>
-	<p>A ideia do bubble sort (ou ordenação "por bolha") é percorrer um vetor diversas vezes, e a cada passagem fazer
-		flutuar para o topo o maior elemento da sequência.
-		É chamado de ordenação por bolha pois essa movimentação lembra a forma como as bolhas em um tanque de água
-		procuram seu próprio nível. No melhor caso, o algoritmo executa n operações relevantes, onde n representa o
-		número de elementos do vector</p>
-	<p>Esse algoritmo foi desenvolvido como atividade da segunda semana do bootcamp Academia Mastertech</p>
-	<h4>Exemplo:</h4>
-	<button id="btn1" onclick="exemplo()"> Clique para ver o Exemplo</button>
-	<p id="ex1"></p>
-	<p id="ex2"></p>
+<body onload="showArray()">
+	<header>
+		<h1>Algoritmo de Ordenação Bubble Sort</h1>
+	</header>
+	<div id="description">
+		<p>Algoritmo de ordenação em ciência da computação é um algoritmo que coloca os elementos de uma dada sequência
+			em
+			uma certa ordem.</p>
+		<p>A ideia do bubble sort (ou ordenação "por bolha") é percorrer um vetor diversas vezes, e a cada passagem
+			fazer
+			flutuar para o topo o maior elemento da sequência.
+			É chamado de ordenação por bolha pois essa movimentação lembra a forma como as bolhas em um tanque de água
+			procuram seu próprio nível. No melhor caso, o algoritmo executa n operações relevantes, onde n representa o
+			número de elementos do vector</p>
+		<p>Esse algoritmo foi desenvolvido como atividade da segunda semana do bootcamp Academia Mastertech</p>
+	</div>
 
-	<h4>Teste você mesmo: </h4>
-	<label>Digite e adcionar numero a numero:</label>
-	<input type="number" id="input">
-	<button type="submit" onclick="addNumber()">Adcionar</button>
-	<p id="elements"></p>
-	<button onclick="orderElements()">Ordenar</button>
-	<p id="ordenedElements"></p>
+	<div id="example">
+		<fieldset name="aaaaa">
+			<h4>Exemplo:</h4>
+			<p id="ex1"></p>
+			<button id="btn1" onclick="exemplo()"> Clique para ver o Exemplo</button>
+			<p id="ex2"></p>
+		</fieldset>
+	</div>
+	<div id="test">
+		<h4>Teste você mesmo: </h4>
+		<label>Digite e adcione numero a numero:</label><br>
+		<input type="number" id="input" placeholder="Digite um número e clique em adcionar">
+		<button type="submit" onclick="addNumber()">Adcionar</button>
+		<p id="elements"></p>
+		<button onclick="orderElements()">Ordenar</button>
+		<p id="ordenedElements"></p>
+	</div>
+
+
+
+
 </body>
 
 </html>
