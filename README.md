@@ -18,10 +18,7 @@ Faça o download do zip ou clone este repositório:
 Abra o arquivo index.html em um navegador de sua preferência e experimente o algoritmo.
 
 ## Tecnologias
-Neste projeto foi utilizado:
-	 HTML5,
-	 CSS3,
-	 JavaScript.
+Neste projeto foi utilizado: HTML5, CSS3, JavaScript.
 
 ## Autor
 Desenvolvido por João Lucas da Silva.
