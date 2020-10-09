@@ -12,7 +12,6 @@ function bubbleSort(numeros) {
 
 function exemplo() {
     let numeros = [33, 103, 3, 726, 200, 984, 198, 764, 9];
-    //document.getElementById('ex1').innerHTML = "Array antes da ordenação: [" + numeros + "]";
     console.log("Antes da ordenação:");
     console.log(numeros);
     bubbleSort(numeros);

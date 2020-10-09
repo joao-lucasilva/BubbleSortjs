@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<script src="bubblesort.js" defer></script>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 	<title>Bubble Sort em JavaScript</title>
 </head>
@@ -16,23 +16,17 @@
 		<h1>Algoritmo de Ordenação Bubble Sort</h1>
 	</header>
 	<div id="description">
-		<p>Algoritmo de ordenação em ciência da computação é um algoritmo que coloca os elementos de uma dada sequência
-			em
-			uma certa ordem.</p>
-		<p>A ideia do bubble sort (ou ordenação "por bolha") é percorrer um vetor diversas vezes, e a cada passagem
-			fazer
-			flutuar para o topo o maior elemento da sequência.
-			É chamado de ordenação por bolha pois essa movimentação lembra a forma como as bolhas em um tanque de água
-			procuram seu próprio nível. No melhor caso, o algoritmo executa n operações relevantes, onde n representa o
-			número de elementos do vector</p>
-		<p>Esse algoritmo foi desenvolvido como atividade da segunda semana do bootcamp Academia Mastertech</p>
+		<p>O algoritmo bubble sort (ou ordenação "por bolha") percorre um array diversas vezes, e a cada passagem
+			fazer flutuar para o topo o maior elemento da sequência.</p>
+		<p>O algoritmo executa <i>n</i> operações relevantes, onde <i>n</i> representa o
+			número de elementos do array.</p>
 	</div>
 
 	<div id="example">
-		<fieldset name="aaaaa">
+		<fieldset id="fieldset">
 			<h4>Exemplo:</h4>
 			<p id="ex1"></p>
-			<button id="btn1" onclick="exemplo()"> Clique para ver o Exemplo</button>
+			<button id="btn1" onclick="exemplo()"> Clique para ordenar o Array</button>
 			<p id="ex2"></p>
 		</fieldset>
 	</div>
@@ -45,10 +39,6 @@
 		<button onclick="orderElements()">Ordenar</button>
 		<p id="ordenedElements"></p>
 	</div>
-
-
-
-
 </body>
 
 </html>

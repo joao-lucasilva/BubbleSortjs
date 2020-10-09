@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: oldlace;
+    background-color: lightcyan;
     font-family: 'Source Sans Pro',
         sans-serif 80px;
     display: grid;
@@ -21,6 +21,11 @@ p {
     justify-self: center;
 }
 
+#fieldset {
+    border: 10px;
+    border-color: black;
+}
+
 #example {
     justify-self: center;
 }
@@ -28,5 +33,5 @@ p {
 #example button {
     height: 50px;
     width: 150px;
-    align-self: center;
+    justify-self: center;
 }
