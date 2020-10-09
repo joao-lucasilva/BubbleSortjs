@@ -6,8 +6,10 @@
  ![Exemplo do algoritmo bubble sort](https://github.com/joao-lucasilva/BubbleSortjs/blob/master/assets/screenshot.JPG)
 
 Algoritmo de ordenação em ciência da computação é um algoritmo que coloca os elementos de uma dada sequência em uma certa ordem.
+
 A ideia do bubble sort (ou ordenação "por bolha") é percorrer um vetor diversas vezes, e a cada passagem fazer flutuar para o topo o maior elemento da sequência. É chamado de ordenação por bolha pois essa movimentação lembra a forma como as bolhas em um tanque de água procuram seu próprio nível. 
 No melhor caso, o algoritmo executa n operações relevantes, onde n representa o número de elementos do vetor.
+
 Esse algoritmo foi desenvolvido como atividade da segunda semana do bootcamp Academia Mastertech
 ## Como Usar
 Faça o download do zip ou clone este repositório:
